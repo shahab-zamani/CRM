@@ -33,11 +33,10 @@ function App() {
   return (
   <div className='app-container'>
          <h1 className='text-center'>CRM Application</h1>
-         <br></br>
-         <br></br>
-         <br></br>
-         <br></br>
-        
+     
+         
+         <h3 >Leads Grid Table :</h3>
+
          <div className='app-container'  >
            
            <table>
@@ -71,6 +70,90 @@ function App() {
          
              </tbody>
            </table>
+
+           <br></br>
+           <br></br>
+           
+          
+          <h3 >Add a New Lead Contact :</h3>
+          <div>
+          <form>
+              <label >
+                  FirstName :
+                  <input
+                    type ="text"
+                    name ="FirstName :"
+                    required ="required"
+                    placeholder ="Enter FirstName..."
+                    />
+              </label>
+            
+              <label>
+                LastName :
+                  <input
+                  type='text' 
+                  name='LastName' 
+                  required='required' 
+                  placeholder='Enter LastName...' 
+                  />
+              </label>
+             
+                  <label>
+                  Email :
+                    <input
+                    type='email' 
+                    name='Email' 
+                    required='required' 
+                    placeholder='Enter Email...' 
+                    />
+                  </label>
+                
+                  <label>
+                  Company :
+                    <input
+                    type='text' 
+                    name='Company' 
+                    required='required' 
+                    placeholder='Enter Company...' 
+                    />
+                  </label>
+            
+                  <label>
+                  PhoneNumber :
+                    <input
+                    type='text' 
+                    name='PhoneNumber' 
+                    required='required' 
+                    placeholder='Enter PhoneNumber...' 
+                    />
+                  </label>
+             
+                  <label>
+                  MobileNumber :
+                    < input
+                    type='text' 
+                    name='MobileNumber' 
+                    required='required' 
+                    placeholder='Enter MobileNumber...' 
+                    />
+                  </label>
+             
+                  <label>
+                  JobPosition :
+                    <input
+                    type='text' 
+                    name='JobPosition' 
+                    required='required' 
+                    placeholder='Enter JobPosition...' 
+                    />
+                  </label>
+                  <button className='btn btn-primary btn-lg' type='submit'>Add</button>
+
+          </form>
+          </div>
+
+
+
            </div>
 
           
